@@ -1,0 +1,4 @@
+function toUpperCase(text) {
+    console.log(text.match(/\w+/g).map(a => a.toLocaleUpperCase()).join(', '));
+}
+toUpperCase('Hi, how are you?')
